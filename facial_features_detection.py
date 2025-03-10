@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 # Import OpenCV with error handling
 try:
-    import cv2
+    import Mod7
 except ImportError as e:
     st.error("Error: Failed to import OpenCV. Please check your installation.")
     logger.error(f"OpenCV import error: {str(e)}")
